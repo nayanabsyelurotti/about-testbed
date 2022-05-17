@@ -1,0 +1,27 @@
+devices:
+  CSR-1:
+    connections:
+      cli:
+        ip: 131.226.217.153
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ASK{}'
+        username: admin
+      enable:
+        password: '%ASK{}'
+    os: nxos
+    type: nxos
+  N9K-X9364v:
+    connections:
+      cli:
+        ip: 131.226.217.151
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ASK{}'
+        username: admin
+      enable:
+        password: '%ASK{}'
+    os: nxos
+    type: nxos
